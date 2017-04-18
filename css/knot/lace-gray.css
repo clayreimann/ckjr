@@ -1,9 +1,25 @@
-@import url("//fonts.googleapis.com/css?family=Petit+Formal+Script:400|Sorts+Mill+Goudy:400|Source+Sans+Pro:300") body, a, a:hover, .footer-text {
-  font-family: "Source Sans Pro" font-size:12px font-style:normal font-weight:300 color:#404040 line-height:1.8
+@import url("//fonts.googleapis.com/css?family=Petit+Formal+Script:400|Sorts+Mill+Goudy:400|Source+Sans+Pro:300");
+body, a, a:hover, .footer-text {
+  font-family: "Source Sans Pro";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  color: #404040;
+  line-height: 1.8
 }
 
 button {
-  font-family: "Petit Formal Script" font-size:13px font-style:normal font-weight:normal color:#FFFFFF border-color:#000000 border-style:solid border-width:0px border-radius:4px background-color:#666666 text-transform:lowercase
+  font-family: "Petit Formal Script";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: normal;
+  color: #FFFFFF;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 4px;
+  background-color: #666666;
+  text-transform: lowercase
 }
 
 button:hover {
@@ -11,15 +27,24 @@ button:hover {
 }
 
 #wedding-title {
-  font-family: "Petit Formal Script" font-size:55px font-style:normal font-weight:normal color:#404040
+  font-family: "Petit Formal Script";
+  font-size: 55px;
+  font-style: normal;
+  font-weight: normal;
+  color: #404040
 }
 
 #wedding-date-location {
-  font-family: "Sorts Mill Goudy" font-size:17px font-style:normal font-weight:normal color:#949494
+  font-family: "Sorts Mill Goudy";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: normal;
+  color: #949494
 }
 
 .theme-image-layer-top {
-  background-repeat: repeat-x background-image:url(https://static.xoedge.com/xo-guest-services/assets/guest/themes/lace-gray/theme_image_layer_top-3406e44e82c41e813b0b3c98fcba3ef4.png)
+  background-repeat: repeat-x;
+  background-image: url(https://static.xoedge.com/xo-guest-services/assets/guest/themes/lace-gray/theme_image_layer_top-3406e44e82c41e813b0b3c98fcba3ef4.png)
 }
 
 #main-nav, #main-nav li a {
@@ -27,7 +52,11 @@ button:hover {
 }
 
 #main-nav li a {
-  font-family: "Sorts Mill Goudy" font-style:normal font-weight:normal color:#404040 letter-spacing:1.3px
+  font-family: "Sorts Mill Goudy";
+  font-style: normal;
+  font-weight: normal;
+  color: #404040;
+  letter-spacing: 1.3px
 }
 
 #main-nav li a:hover, #main-nav li a.selected {
@@ -47,15 +76,26 @@ button:hover {
 }
 
 .section-title, .event-section-title, .wedding-event-section-title, .wedding-party-section-title, .location-section-title, .album-section-title, .photo-section-title, .registry-section-title {
-  font-family: "Petit Formal Script" font-size:29px font-style:normal font-weight:normal color:#949494
+  font-family: "Petit Formal Script";
+  font-size: 29px;
+  font-style: normal;
+  font-weight: normal;
+  color: #949494
 }
 
 .section-separator, .event-section-separator, .wedding-event-section-separator, .wedding-party-section-separator, .location-section-separator, .album-section-separator, .photo-section-separator, .registry-section-separator {
-  background-position: center background-image:url(https://static.xoedge.com/xo-guest-services/assets/guest/themes/lace-gray/section_separator-1d3070d0450e9df071680638899118d6.png) height:40px background-repeat:no-repeat
+  background-position: center;
+  background-image: url(https://static.xoedge.com/xo-guest-services/assets/guest/themes/lace-gray/section_separator-1d3070d0450e9df071680638899118d6.png);
+  height: 40px;
+  background-repeat: no-repeat
 }
 
 .item-title, .event-title, .wedding-event-title, .location-title {
-  font-family: "Sorts Mill Goudy" font-size:30px font-style:normal font-weight:normal color:#404040
+  font-family: "Sorts Mill Goudy";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: normal;
+  color: #404040
 }
 
 #main-container {
@@ -63,5 +103,6 @@ button:hover {
 }
 
 .theme-image-container-bottom {
-  height: 0 padding-bottom:0
+  height: 0;
+  padding-bottom: 0
 }
