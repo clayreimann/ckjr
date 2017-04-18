@@ -8,6 +8,7 @@ ul.seating {
 
   ul {
     list-style: none;
+    padding-left: 40px;
   }
 
   & > li > span.header {
@@ -15,5 +16,7 @@ ul.seating {
     display: block;
     padding: 3px;
     font-size: 2rem;
+    padding-left: 40px;
+    font-weight: bold;
   }
 }
