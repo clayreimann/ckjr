@@ -1,5 +1,7 @@
 <meta charset="utf-8">
 <title>{{page.title | default: site.title}}</title>
+<meta property="og:url" content="{{page.url | absolute_url }}" />
+<meta property="og:title" content="{{page.title | default: site.title}}" />
 {%for prop in page.og
   %}<meta property="og:{{prop[0]}}" content="{{prop[1]}}" />
 {%endfor%}
